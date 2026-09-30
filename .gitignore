@@ -1,0 +1,15 @@
+# Python / 虚拟环境
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 运行产物(合成数据库、checkpoint、月表/月报)
+work/
+*.db
+*.sqlite
+*.sqlite3
+
+# 本地配置与系统文件
+.env
+.DS_Store
